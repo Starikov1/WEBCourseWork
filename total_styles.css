@@ -1,0 +1,104 @@
+body
+{
+	font-family: 'Oswald', sans-serif;
+	background-color: #cee0d5;
+}
+
+.button-class-menu
+{
+	background-color: #9329d9;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    color: white;
+    padding: 16px 32px;
+	text-decoration: none;
+	margin: 4px 2px;
+	cursor: pointer;
+}
+
+.form-menu
+{
+	width: 80%;
+}
+
+.form-menu form
+{
+	width: 100%;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.outer-menu
+{
+  	width: 100%;
+  	display: flex;
+  	flex-direction: row;
+  	justify-content: center;
+}
+
+.content-below
+{
+	width: 100%;
+}
+
+.button-class-menu:not(#thispagebutton)
+{
+    border: none;
+}
+
+.tableheader
+{
+    font-size: 22px;
+}
+
+#thispagebutton
+{
+    border: 4px solid red;
+}
+
+.tbody-table
+{
+    height: 100%;
+}
+
+.tbl1
+{
+    height: 150px;
+    width: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.row_or_form span
+{
+    float: left !important;
+}
+
+.inner-form
+{
+    width: 55%;
+}
+
+.form-div-add
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Input-form-add
+{
+    width: 100%;
+}
+
+.button-add-form
+{
+    background-color: #9329d9;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+	margin: 4px 2px;
+	cursor: pointer;
+}
+    
